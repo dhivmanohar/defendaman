@@ -230,7 +230,7 @@ extern "C" char * Game_GetData(GameClient * client)
 				[size]		Size of the packet
 
 	Programmer: Gabriel Lee, Tyler Trepanier
-	
+
 	@return: -1 for failure, 0 on success
 */
 extern "C" int Game_Send(GameClient * client, char * message, int size)
